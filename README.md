@@ -18,11 +18,11 @@ If you already have it installed, run the server by: `json-server --watch db.jso
     </li>
   ```
 * Submitting the form should create a new quote.
-* Whether you chooose to optimisticall render or not, the new quote should appear without having to refresh the page.
-* Hitting the delete button should delete the respective quote. User should not have to refresh to see the quote removed from the page.  
+* Whether you chooose to optimistically render or not, the new quote render without having to refresh the page.
+* Hitting the delete button should delete the respective quote.
 * Hitting the like button will increase the number of likes for this particular comment.
 
 
 * **BONUS**
-* Add a an edit button to each quote-card that will allow the editing of a quote.
+* Add an edit button to each quote-card that will allow the editing of a quote.
 * Add a sort button on the page that I can toggle on and off that will sort the list of quotes by author name.
