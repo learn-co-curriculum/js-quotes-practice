@@ -6,7 +6,8 @@ If you already have it installed, run the server by: `json-server --watch db.jso
 ### Deliverables
 * Populate page with quotes with a `GET` request to `http://localhost:3000/quotes`.
 * Each quotes should have the following structure:
-  `<li class='quote-card'>
+  ```html
+    <li class='quote-card'>
       <blockquote class="blockquote">
         <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
         <footer class="blockquote-footer">Someone famous</footer>
@@ -14,7 +15,7 @@ If you already have it installed, run the server by: `json-server --watch db.jso
         <button class='btn-danger'>Delete</button>
       </blockquote>
     </li>
-  `
+  ```
 * Submitting the form should create a new quote.
 * Whether you chooose to optimisticall render or not, the new quote should appear without having to refresh the page.
 * Hitting the delete button should delete the respective quote. User should not have to refresh to see the quote removed from the page.  
