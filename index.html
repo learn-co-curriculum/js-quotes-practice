@@ -4,12 +4,38 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="src/index.css">
   <title>Motivation</title>
 </head>
-<body>
-  <h3>My favorite quotes</h3>
-  <div id="quote-list">
-
+<body class='container center'>
+  <h1>My favorite quotes:</h1>
+  <div>
+    <ul id="quote-list">
+      <li class='quote-card'>
+        <blockquote class="blockquote">
+          <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+          <footer class="blockquote-footer">Someone famous</footer>
+          <br>
+          <button class='btn-danger'>Delete</button>
+        </blockquote>
+      </li>
+    </ul>
+  </div>
+  <hr>
+  <div>
+    <form id="new-quote-form">
+      <div class="form-group">
+        <label for="new-quote">New Quote</label>
+        <input type="text" class="form-control" id="new-quote" placeholder="The journey of a thousand steps...">
+      </div>
+      <div class="form-group">
+        <label for="Author">Author</label>
+        <input type="text" class="form-control" id="author" placeholder="Anonymous">
+      </div>
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
   </div>
 </body>
 </html>
