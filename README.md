@@ -12,6 +12,7 @@ If you already have it installed, run the server by: `json-server --watch db.jso
         <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
         <footer class="blockquote-footer">Someone famous</footer>
         <br>
+        <button class='btn-success'>Likes: <span>0</span></button>
         <button class='btn-danger'>Delete</button>
       </blockquote>
     </li>
