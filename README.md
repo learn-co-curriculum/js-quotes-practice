@@ -19,6 +19,7 @@ If you already have it installed, run the server by: `json-server --watch db.jso
 * Submitting the form should create a new quote.
 * Whether you chooose to optimisticall render or not, the new quote should appear without having to refresh the page.
 * Hitting the delete button should delete the respective quote. User should not have to refresh to see the quote removed from the page.  
+* Hitting the like button will increase the number of likes for this particular comment.
 
 
 * **BONUS**
