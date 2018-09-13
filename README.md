@@ -23,6 +23,6 @@ If you already have it installed, run the server by: `json-server --watch db.jso
 * Hitting the like button will increase the number of likes for this particular comment.
 
 
-* **BONUS**
+### BONUS
 * Add an edit button to each quote-card that will allow the editing of a quote.
 * Add a sort button on the page that I can toggle on and off that will sort the list of quotes by author name.
