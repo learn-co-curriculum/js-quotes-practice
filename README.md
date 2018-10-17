@@ -1,7 +1,7 @@
 ## Hello, let's build a simple app that allows us to keep track of our favorite quotes and who said it.  
 
-If you don't have json-server installed, run `npm i json-server -g`.  
-If you already have it installed, run the server by: `json-server --watch db.json`.
+If you don't have json-server installed, run `$ npm i -g json-server`.  
+If you already have it installed, run the server by: `$ json-server --watch db.json`.
 
 ### Deliverables
 * Populate page with quotes with a `GET` request to `http://localhost:3000/quotes`.
