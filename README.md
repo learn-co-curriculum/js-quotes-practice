@@ -59,5 +59,5 @@ data:
 ```
 
 ```
-DELETE http://localhost:3000/monsters/:id
+DELETE http://localhost:3000/quotes/:id
 ```
