@@ -7,7 +7,7 @@ If you already have it installed, run the server by: `$ json-server --watch db.j
 * Populate page with quotes with a `GET` request to `http://localhost:3000/quotes`.
 
 * Each quotes should have the following structure:
-  ```
+  ```html
     <li class='quote-card'>
       <blockquote class="blockquote">
         <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
