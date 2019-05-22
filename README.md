@@ -26,4 +26,7 @@ If you already have it installed, run the server by: `$ json-server --watch db.j
 
 ### BONUS
 * Add an edit button to each quote-card that will allow the editing of a quote. _(Hint: there is no 'correct' way to do this. You can try creating a hidden form that will only show up when hitting the edit button.)_
-* Add a sort button on the page that I can toggle on and off that will sort the list of quotes by author name.
+* Add a sort button on the page that I can toggle on and off that will sort the list of quotes by author name (instead of just listing them in order of ID)
+  * One way of doing this is to sort the quotes in JS after you've retrieved them from the API. Try this way first.
+  * Another way of doing this is to make a fetch to `http://localhost:3000/quotes?_sort=author`
+  * What are the pros and cons in doing the sorting on the client vs. the server? Discuss with a partner.
