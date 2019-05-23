@@ -19,7 +19,8 @@ db.json`.
 
 ## Build a simple, Event-driven, JavaScript DOM-modifying application
 
-* Populate page with quotes with a `GET` request to `http://localhost:3000/quotes`.
+* Populate page with quotes with a `GET` request to
+  `http://localhost:3000/quotes`.
 
 * Each quotes should have the following structure:
   ```html
@@ -33,11 +34,21 @@ db.json`.
       </blockquote>
     </li>
   ```
-* Submitting the form creates a new quote and adds it to the list of quotes without having to refresh the page. (Whether you choose to optimistically render or not is up to you).
-* Clicking the delete button should delete the respective quote from the database and remove it from the page without having to refresh.
-* Clicking the like button will create a like for this particular quote in the API and update the number of likes displayed on the page without having to refresh.
+
+* Submitting the form creates a new quote and adds it to the list of quotes
+  without having to refresh the page. (Whether you choose to optimistically
+  render or not is up to you).
+
+* Clicking the delete button should delete the respective quote from the
+  database and remove it from the page without having to refresh.
+
+* Clicking the like button will create a like for this particular quote in the
+  API and update the number of likes displayed on the page without having to
+  refresh.
   * Use a `POST` request to `http://localhost:3000/quotes/id`
-  * The body of the request should be a JSON object containing a key of `quoteId`, with an integer value. Use the ID of the quote you're creating the like for — e.g. `{ quoteId: 5 }` to create a like for quote 5.
+  * The body of the request should be a JSON object containing a key of
+    `quoteId`, with an integer value. Use the ID of the quote you're creating
+    the like for — e.g. `{ quoteId: 5 }` to create a like for quote 5.
   * Bonus (not required): add a `createdAt` key to your object to track when the like was created. Use [UNIX time](https://en.wikipedia.org/wiki/Unix_time) (the number of seconds since January 1, 1970). The [documentation](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date) for the JS `Date` class may be helpful here!
 
 ## BONUS
