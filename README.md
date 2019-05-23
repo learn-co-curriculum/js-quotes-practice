@@ -51,7 +51,7 @@ db.json`.
     the like for — e.g. `{ quoteId: 5 }` to create a like for quote 5.
   * Bonus (not required): add a `createdAt` key to your object to track when the like was created. Use [UNIX time](https://en.wikipedia.org/wiki/Unix_time) (the number of seconds since January 1, 1970). The [documentation](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date) for the JS `Date` class may be helpful here!
 
-## BONUS
+## Extend Your Learning
 
 * Add an edit button to each quote-card that will allow the editing of a quote. _(Hint: there is no 'correct' way to do this. You can try creating a hidden form that will only show up when hitting the edit button.)_
 * Add a sort button on the page that I can toggle on and off that will sort the list of quotes by author name (instead of just listing them in order of ID)
