@@ -8,7 +8,7 @@
 ## Introduction
 
 Hello, let's build a simple app that allows us to keep track of our favorite
-quotes and who said it.
+quotes and who said them.
 
 ## Use `json-server` to Provide a Basic RESTful Data Store
 
@@ -45,7 +45,7 @@ db.json`.
 * Clicking the like button will create a like for this particular quote in the
   API and update the number of likes displayed on the page without having to
   refresh.
-  * Use a `POST` request to `http://localhost:3000/quotes/id`
+  * Use a `POST` request to `http://localhost:3000/likes`
   * The body of the request should be a JSON object containing a key of
     `quoteId`, with an integer value. Use the ID of the quote you're creating
     the like for — e.g. `{ quoteId: 5 }` to create a like for quote 5.
