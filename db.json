@@ -53,6 +53,7 @@
   ],
   "likes": [
     {
+        "id": 1,
         "quoteId": 1,
         "createdAt": 1558524356
     }
