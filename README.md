@@ -46,8 +46,11 @@ db.json`.
   refresh.
   * Use a `POST` request to `http://localhost:3000/likes`
   * The body of the request should be a JSON object containing a key of
-    `quoteId`, with an integer value. Use the ID of the quote you're creating
-    the like for — e.g. `{ quoteId: 5 }` to create a like for quote 5.
+    `quoteId`, with an _integer_ value. Use the ID of the quote you're creating
+    the like for — e.g. `{ quoteId: 5 }` to create a like for quote 5. IMPORTANT: 
+    if the `quoteID` is a string for some reason (for example, if you've pulled 
+    the ID from a dataset) the index page will not include the like you 
+    create on _any_ quote.
   * Bonus (not required): add a `createdAt` key to your object to track when
     the like was created. Use [UNIX time][] (the number of seconds since
     January 1, 1970). The  [documentation][] for the JS `Date` class may be
