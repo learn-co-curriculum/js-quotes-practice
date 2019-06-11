@@ -7,8 +7,7 @@
 
 ## Introduction
 
-Hello, let's build a simple app that allows us to keep track of our favorite
-quotes and who said them.
+Hello, let's build a simple app that allows us to keep track of our favoritequotes and who said them.
 
 ## Use `json-server` to Provide a Basic RESTful Data Store
 
@@ -20,9 +19,9 @@ db.json`.
 ## Build a simple, Event-driven, JavaScript DOM-modifying application
 
 * Populate page with quotes with a `GET` request to
-  `http://localhost:3000/quotes`.
+  `http://localhost:3000/quotes?_embed=likes`.
 
-* Each quotes should have the following structure:
+* Each quote should have the following structure:
   ```html
     <li class='quote-card'>
       <blockquote class="blockquote">
