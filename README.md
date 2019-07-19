@@ -37,11 +37,10 @@ db.json`.
   ```
 
 * Submitting the form creates a new quote and adds it to the list of quotes
-  without having to refresh the page. (Whether you choose to optimistically
-  render or not is up to you).
+  without having to refresh the page. Pessimistic rendering is reccommended.
 
 * Clicking the delete button should delete the respective quote from the
-  database and remove it from the page without having to refresh.
+  API and remove it from the page without having to refresh.
 
 * Clicking the like button will create a like for this particular quote in the
   API and update the number of likes displayed on the page without having to
