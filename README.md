@@ -7,7 +7,7 @@
 
 ## Introduction
 
-Hello, let's build a simple app that allows us to keep track of our favoritequotes and who said them.
+Hello, let's build a simple app that allows us to keep track of our favorite quotes and who said them.
 
 ## Use `json-server` to Provide a Basic RESTful Data Store
 
