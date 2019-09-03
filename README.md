@@ -19,9 +19,7 @@ db.json`.
 ## Build a simple, Event-driven, JavaScript DOM-modifying application
 
 * Populate page with quotes with a `GET` request to
-  `http://localhost:3000/quotes?_embed=likes`. The query string in this URL tells 
-  `json-server` to include the likes for a quote in the JSON of the response. You
-  should not use this query string when creating or deleting a quote.
+  `http://localhost:3000/quotes`.
 
 * Each quote should have the following structure:
   ```html
@@ -30,7 +28,6 @@ db.json`.
         <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
         <footer class="blockquote-footer">Someone famous</footer>
         <br>
-        <button class='btn-success'>Likes: <span>0</span></button>
         <button class='btn-danger'>Delete</button>
       </blockquote>
     </li>
@@ -42,20 +39,6 @@ db.json`.
 * Clicking the delete button should delete the respective quote from the
   API and remove it from the page without having to refresh.
 
-* Clicking the like button will create a like for this particular quote in the
-  API and update the number of likes displayed on the page without having to
-  refresh.
-  * Use a `POST` request to `http://localhost:3000/likes`
-  * The body of the request should be a JSON object containing a key of
-    `quoteId`, with an _integer_ value. Use the ID of the quote you're creating
-    the like for — e.g. `{ quoteId: 5 }` to create a like for quote 5. IMPORTANT: 
-    if the `quoteID` is a string for some reason (for example, if you've pulled 
-    the ID from a dataset) the index page will not include the like you 
-    create on _any_ quote.
-  * Bonus (not required): add a `createdAt` key to your object to track when
-    the like was created. Use [UNIX time][] (the number of seconds since
-    January 1, 1970). The  [documentation][] for the JS `Date` class may be
-    helpful here!
 
 ## Extend Your Learning
 
