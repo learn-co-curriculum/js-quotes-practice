@@ -34,10 +34,10 @@ db.json`.
   ```
 
 * Submitting the form creates a new quote and adds it to the list of quotes
-  without having to refresh the page. Pessimistic rendering is reccommended.
+  without having to refresh the page. Pessimistic rendering is reccommended. Make a Post Request to `http://localhost:3000/quotes`.
 
 * Clicking the delete button should delete the respective quote from the
-  API and remove it from the page without having to refresh. Make a Delete Request to `http://localhost:3000/quotes/:id`
+  API and remove it from the page without having to refresh. Make a Delete Request to `http://localhost:3000/quotes/:id`.
 
 
 ## Extend Your Learning
