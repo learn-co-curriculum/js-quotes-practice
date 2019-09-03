@@ -1,11 +1,6 @@
 {
   "quotes": [
     {
-      "id": 1,
-      "quote": "The here and now is all we have, and if we play it right it's all we'll need.",
-      "author": "Ann Richards"
-    },
-    {
       "id": 2,
       "quote": "There are no secrets to success. It is the result of preparation, hard work, and learning from failure.",
       "author": "Collin Powell"
@@ -64,6 +59,11 @@
       "quote": "kibbs is love, kibbs is life",
       "author": "janet",
       "id": 16
+    },
+    {
+      "quote": "doge is life",
+      "author": "janet",
+      "id": 17
     }
   ]
 }

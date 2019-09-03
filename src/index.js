@@ -22,14 +22,13 @@ document.addEventListener('DOMContentLoaded', () => {
                     <p class="mb-0">${quote.quote}</p> 
                     <footer class="blockquote-footer">${quote.author}</footer> 
                     <br/>
-                    <form class="edit-quote-form" data-id=${quote.id}>
-                        <input class="form-control" name="quote" type="textarea" placeholder="${quote.quote}">
-                        <input class="form-control" name="author" type="text" placeholder="${quote.author}">
-                        <button type="submit" class="btn btn-primary">Submit</button>
-                    </form>
                     <button class="btn-dark">Edit</button>
                     <button class='btn-danger'>Delete</button> 
                 </blockquote>
+                <form class="edit-quote-form" data-id="${quote.id}">
+                   
+                    <input type="submit" class="btn btn-primary" />
+                </form>
             </li>`
     }
 
@@ -71,15 +70,33 @@ document.addEventListener('DOMContentLoaded', () => {
             .then(data => {fetchQuotes()})
         }
         // This was trying to get edit button to work
-        // else if (e.target.classList.contains('btn-dark')){
-        //     const editForm = e.target.previousElementSibling
-        //     editForm.style.display = "block"
-        //     console.log(editForm)
-        //     editForm.onsubmit = (e) => {
-        //         console.log('I am submitted')
-        //         debugger
-        //     }
-        // }
+        else if (e.target.classList.contains('btn-dark')){
+            let editForm = e.target.parentElement.nextElementSibling
+            console.log(editForm)
+            //debugger
+            // editForm.style.display = "block"
+            // console.log(e.target)
+            // e.target.parentElement.parentElement.innerHTML += `
+            //     <form class="edit-quote-form">
+            //         <div class="form-group">
+            //         <input class="form-control" name="quote" type="textarea" value="">
+            //         </div>
+            //         <div class="form-group">
+            //         <input class="form-control" name="author" type="text" value="">
+            //         </div>
+            //         <button type="submit" class="btn btn-primary">Submit</button>
+            //     </form>`
+            document.addEventListener("submit", (e) => {
+                console.log("i am clicked")
+            })
+            console.log("editing form")
+            // editForm.addEventListener('submit', (e) => {
+            //     //debugger
+            //     //e.preventDefault()
+            //     console.log(e)
+            // })
+
+        }
     })
 
     fetchQuotes()
