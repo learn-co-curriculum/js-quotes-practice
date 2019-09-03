@@ -26,8 +26,13 @@ document.addEventListener('DOMContentLoaded', () => {
                     <button class='btn-danger'>Delete</button> 
                 </blockquote>
                 <form class="edit-quote-form" data-id="${quote.id}">
-                   
-                    <input type="submit" class="btn btn-primary" />
+                <div class="form-group" >
+                    <input class="form-control" name="quote" type="textarea" value="${quote.quote}">
+                    </div>
+                    <div class="form-group">
+                    <input class="form-control" name="author" type="text" value="${quote.author}">
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
                 </form>
             </li>`
     }
