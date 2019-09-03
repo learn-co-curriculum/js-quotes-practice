@@ -18,10 +18,10 @@ db.json`.
 
 ## Build a simple, Event-driven, JavaScript DOM-modifying application
 
-* Populate page with quotes with a `GET` request to
-  `http://localhost:3000/quotes`.
+* 🔮Populate page with quotes with a `GET` request to
+  `http://localhost:3000/quotes`. 
 
-* Each quote should have the following structure:
+* 🔮Each quote should have the following structure:
   ```html
     <li class='quote-card'>
       <blockquote class="blockquote">
@@ -33,10 +33,10 @@ db.json`.
     </li>
   ```
 
-* Submitting the form creates a new quote and adds it to the list of quotes
+* 🔮Submitting the form creates a new quote and adds it to the list of quotes
   without having to refresh the page. Pessimistic rendering is reccommended. Make a Post Request to `http://localhost:3000/quotes`.
 
-* Clicking the delete button should delete the respective quote from the
+* 🔮Clicking the delete button should delete the respective quote from the
   API and remove it from the page without having to refresh. Make a Delete Request to `http://localhost:3000/quotes/:id`.
 
 
