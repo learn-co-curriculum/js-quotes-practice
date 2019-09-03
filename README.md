@@ -37,7 +37,7 @@ db.json`.
   without having to refresh the page. Pessimistic rendering is reccommended.
 
 * Clicking the delete button should delete the respective quote from the
-  API and remove it from the page without having to refresh.
+  API and remove it from the page without having to refresh. Make a Delete Request to `http://localhost:3000/quotes/:id`
 
 
 ## Extend Your Learning
