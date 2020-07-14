@@ -2,18 +2,18 @@
   "quotes": [
     {
       "id": 1,
-      "quote": "The here and now is all we have, and if we play it right it's all we'll need.",
-      "author": "Ann Richards"
+      "quote": "Expect nothing. Live frugally on surprise.",
+      "author": "Alice Walker"
     },
     {
       "id": 2,
-      "quote": "There are no secrets to success. It is the result of preparation, hard work, and learning from failure.",
-      "author": "Collin Powell"
+      "quote": "Y’all is the best, most inclusive, second-person, plural pronoun in the English-speaking world.",
+      "author": "Hannah Gadsby"
     },
     {
       "id": 3,
-      "quote": "Don't count the days, make the days count.",
-      "author": "Mike Tyson"
+      "quote": "today a man on the street pointed to me & said ‘what the hell is that!?’ i wanted to turn around, tell him that i got this dress on sale & i got this body for free but you have been making me pay for both ever since.",
+      "author": "Alok Vaid Menon"
     },
     {
       "id": 4,
@@ -22,28 +22,28 @@
     },
     {
       "id": 5,
-      "quote": "The cure for boredom is curiosity. There is no cure for curiosity.",
-      "author": "Dorothy Parker"
+      "quote": "We had better not enjoy the moment, but create the moment.",
+      "author": "Ai Weiwei"
     },
     {
       "id": 6,
-      "quote": "Do the best you can in every task, no matter how unimportant it may seem at the time. No one learns more about a problem than the person at the bottom.",
-      "author": "Sandra Day O'Connor"
+      "quote": "If I didn't define myself for myself, I would be crunched into other people's fantasies for me and eaten alive.",
+      "author": "Audre Lorde"
     },
     {
       "id": 7,
-      "quote": "Tell me and I forget, teach me and I remember, involve me and I learn.",
-      "author": "Benjamin Franklin"
+      "quote": "Our greatest glory is not in never falling, but in rising everytime we fall.",
+      "author": "Confucius"
     },
     {
       "id": 8,
-      "quote": "Success is not final, failure is not fatal: it is the courage to continue that counts.",
-      "author": "Winston Churchhill"
+      "quote": "Don't count the days, make the days count.",
+      "author": "Muhammad Ali"
     },
     {
       "id": 9,
-      "quote": "Our greatest glory is not in never falling, but in rising everytime we fall.",
-      "author": "Confucius"
+      "quote": "Not everything that is faced can be changed, but nothing can be changed until it is faced.",
+      "author": "James Baldwin"
     },
     {
       "id": 10,
@@ -51,8 +51,9 @@
       "author": "Sonia Sotomayor"
     },
     {
-      "quoteId": 2,
-      "id": 11
+      "id": 11,
+      "quote": "The here and now is all we have, and if we play it right it's all we'll need.",
+      "author": "Ann Richards"
     }
   ],
   "likes": [
