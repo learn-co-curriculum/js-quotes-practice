@@ -49,11 +49,6 @@
       "id": 10,
       "quote": "You know, failure hurts. Any kind of failure stings. If you live in the sting, you will undoubtedly fail. My way of getting past the sting is to say no, I’m just not going to let this get me down.",
       "author": "Sonia Sotomayor"
-    },
-    {
-      "id": 11,
-      "quote": "The here and now is all we have, and if we play it right it's all we'll need.",
-      "author": "Ann Richards"
     }
   ],
   "likes": [
@@ -66,6 +61,31 @@
       "quoteId": 10,
       "id": 2,
       "createdAt": 1558524358
+    },
+    {
+      "quoteId": 5,
+      "createdAt": 1604366099572,
+      "id": 9
+    },
+    {
+      "quoteId": 5,
+      "createdAt": 1604366099900,
+      "id": 10
+    },
+    {
+      "quoteId": 5,
+      "createdAt": 1604366100089,
+      "id": 11
+    },
+    {
+      "quoteId": 3,
+      "createdAt": 1604366278261,
+      "id": 12
+    },
+    {
+      "quoteId": 4,
+      "createdAt": 1604366292864,
+      "id": 13
     }
   ]
 }
