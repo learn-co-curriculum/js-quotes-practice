@@ -23,6 +23,7 @@ If you already have it installed, run the server by: `$ json-server --watch db.j
   should not use this query string when creating or deleting a quote.
 
 * Each quote should have the following structure:
+
   ```html
     <li class='quote-card'>
       <blockquote class="blockquote">
